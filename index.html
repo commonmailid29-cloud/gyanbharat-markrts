@@ -1,1 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>GyanBharat Markets | Indian Stock Market Trends</title>
+
+<meta name="description"
+content="GyanBharat Markets - Indian stock market trends, NIFTY 50, SENSEX, MCX and stock analysis.">
+
+<style>
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#f5f7fb;
+color:#172033;
+}
+
+header{
+background:linear-gradient(135deg,#071d3a,#1261c9);
+color:white;
+padding:20px;
+}
+
+.nav{
+max-width:1200px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:25px;
+font-weight:bold;
+}
+
+.logo span{
+color:#38d39f;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:14px;
+}
+
+.hero{
+max-width:1200px;
+margin:55px auto 20px;
+}
+
+.hero h1{
+font-size:48px;
+max-width:750px;
+line-height:1.1;
+margin-bottom:18px;
+}
+
+.hero p{
+font-size:18px;
+max-width:700px;
+color:#dbe7ff;
+line-height:1.6;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px;
+}
+
+.card{
+background:white;
+border-radius:15px;
+padding:22px;
+border:1px solid #e3e7ef;
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.card h2{
+margin-bottom:10px;
+}
+
+.price{
+font-size:30px;
+font-weight:bold;
+margin:10px 0;
+}
+
+.green{
+color:#07883b;
+}
+
+.red{
+color:#d92d20;
+}
+
+.section{
+margin-top:40px;
+}
+
+.section h2{
+font-size:28px;
+margin-bottom:20px;
+}
+
+.market-table{
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:12px;
+overflow:hidden;
+}
+
+.market-table th,
+.market-table td{
+padding:14px;
+border-bottom:1px solid #e8ebf0;
+text-align:left;
+}
+
+.market-table th{
+background:#f1f4f8;
+font-size:13px;
+}
+
+.analysis{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:18px;
+}
+
+.signal{
+padding:15px;
+border-bottom:1px solid #eee;
+}
+
+.signal:last-child{
+border-bottom:none;
+}
+
+.badge{
+display:inline-block;
+padding:5px 9px;
+border-radius:20px;
+font-size:12px;
+font-weight:bold;
+}
+
+.bullish{
+background:#e3f7ed;
+color:#087443;
+}
+
+.bearish{
+background:#fde8e7;
+color:#b42318;
+}
+
+.neutral{
+background:#fff4d6;
+color:#946200;
+}
+
+footer{
+margin-top:50px;
+background:#071d3a;
+color:#cbd5e1;
+text-align:center;
+padding:30px 20px;
+font-size:13px;
+}
+
+.disclaimer{
+margin-top:25px;
+font-size:12px;
+color:#667085;
+text-align:center;
+line-height:1.6;
+}
+
+@media(max-width:800px){
+
+nav{
+display:none;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.analysis{
+grid-template-columns:1fr;
+}
+
+.market-table{
+font-size:13px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="nav">
+
+<div class="logo">
+GyanBharat <span>Markets</span>
+</div>
+
+<nav>
+<a
